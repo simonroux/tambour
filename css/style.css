@@ -168,7 +168,7 @@ section {
 --------------------*/
 
 header {
-    background-image: url(../images/demo/bg-main.jpg);
+    background-image: url(../images/header_large.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -222,7 +222,7 @@ header .intro-text .intro-heading {
 	header .intro-text .intro-heading {
 	    text-transform: ;
 	    font-weight: 700;
-	    font-size: 75px;
+	    font-size: 120px;
 	    line-height: 75px;
 	    margin-bottom: 50px;
 	}
@@ -700,14 +700,14 @@ font-size: 11px;
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     border-radius: 4px;
 }
 
 .btn-xl {
     color: #fff;
-     background-color: #726FB9;
-    border-color: #726FB9;
+     background-color: none;
+    border-color: white;
     font-family: "Robot",sans-serif;
     text-transform: ;
     font-weight: 700;
