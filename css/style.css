@@ -274,11 +274,6 @@ header .intro-text .intro-heading {
     text-decoration:none;
     color:white;
 }
-@media (max-width: 680px;) {
-    [class*="mainbtn"] {
-    font-size: 12px;
-}
-}
 
 
 
