@@ -38,7 +38,7 @@ Import Google Fonts
 
 body {
   margin: 0px;
-    font-family: "Open Sans", Sans-serif;
+    font-family: "Roboto", Sans-serif;
 }
 
 h1,
@@ -49,7 +49,7 @@ h5,
 h6 {
 font-weight: 300;
     letter-spacing: 0.4px;
-    font-family: "Open Sans", Sans-serif;
+    font-family: "Roboto", Sans-serif;
     color: #232323;
 }
 
@@ -222,7 +222,7 @@ header .intro-text .intro-heading {
 	header .intro-text .intro-heading {
 	    text-transform: ;
 	    font-weight: 700;
-	    font-size: 120px;
+	    font-size: 200px;
 	    line-height: 75px;
 	    margin-bottom: 50px;
 	}
@@ -670,23 +670,21 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #7D1E98;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #7D1E98;
 }
 
 .btn {
     display: inline-block;
-    padding: 8px 20px;
     margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 8px;
+    font-weight: lighter;
     line-height: 1.42857143;
+    background-color:#9322AC;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -698,20 +696,28 @@ font-size: 11px;
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 3px solid transparent;
-    border-radius: 4px;
+    border: 0;
+}
+
+.btn @media {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 8px;
 }
 
 .btn-xl {
     color: #fff;
-     background-color: none;
-    border-color: white;
-    font-family: "Robot",sans-serif;
-    text-transform: ;
-    font-weight: 700;
-    border-radius: 3px;
-    font-size: 18px;
-    padding: 20px 40px;
+    font-family: "Roboto",sans-serif;
+    font-weight: light;
+    font-size: 24px;
+    border: none;
+    margin:0;
+    padding:0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:0;
 }
 
 /* Back to top button
