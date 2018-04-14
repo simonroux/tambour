@@ -208,7 +208,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     font-family: "Playfair Display",sans-serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
 }
@@ -235,7 +235,7 @@ header .intro-text .intro-heading {
 @media (max-width: 680px) {
 	header .intro-text .intro-heading {
 	    font-weight: 700;
-        font-size: 50px;
+        font-size: 100px;
 	    line-height: 75px;
 	    margin-bottom: 50px;
 	}
