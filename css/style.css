@@ -67,7 +67,6 @@ p {
 }
 
 a:hover, a:focus, a:active, a.active {
-    color: #fec503;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
@@ -246,7 +245,8 @@ header .intro-text .intro-heading {
     margin-bottom: 0;
     font-size: 18px;
     color:white;
-    font-weight: 300;
+    font-weight: 200;
+    letter-spacing: 1px;
     line-height: 1.42857143;
     background-color:#73148A;
     text-align: center;
@@ -274,6 +274,24 @@ header .intro-text .intro-heading {
     text-decoration:none;
     color:white;
 }
+.mainbtn:active {
+    background-color: #73148A;
+    text-decoration:none;
+    color:white;
+}
+
+.mainbtn:visited {
+    background-color: #73148A;
+    text-decoration:none;
+    color:white;
+}
+
+.mainbtn:focus {
+    background-color: #73148A;
+    text-decoration:none;
+    color:white;
+}
+
 
 
 
@@ -643,6 +661,10 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 .contact i {
     margin-right: 5px;
+}
+
+.col-md-3 {
+    
 }
 
 /*--------------------
