@@ -580,6 +580,9 @@ figure.effect-bubba:hover p {
 /*--------------------
 4.6. Team
 --------------------*/
+.flash-bg{
+    background-color:#FCFCFC;
+}
 
 .team-item {
     text-align: center;
