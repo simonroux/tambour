@@ -664,6 +664,15 @@ section#contact .form-group input, section#contact .form-group textarea {
     margin-right: 5px;
 }
 
+.img-contact {
+    display:inline-block;
+}
+
+.contacttext{
+    margin-bottom:10px;
+}
+
+
 /*--------------------
 5. Footer
 --------------------*/
