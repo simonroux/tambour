@@ -589,6 +589,8 @@ figure.effect-bubba:hover p {
 .team-item h3 {
     font-size: 16px;
     font-weight: 500;
+    margin-top: 10px;
+    margin-bottom:0px;
 }
 
 .team-item .team-location {
@@ -600,7 +602,7 @@ figure.effect-bubba:hover p {
 .team-item .team-location {
     color: #C5C5C5;
     font-size: 12px;
-    margin-bottom: 20px;    
+    margin-bottom: 2px;    
 }
 
 .team-item .team-position {
@@ -615,6 +617,16 @@ figure.effect-bubba:hover p {
     padding: 5px 10px 20px 10px;
 }
 
+.team-image img{
+border-radius: 100%;    
+}
+
+.team-position {
+}
+
+.team-location{
+    margin-top:5px;
+}
 /*--------------------
 4.7. Contacts
 --------------------*/
