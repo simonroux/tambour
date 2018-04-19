@@ -104,6 +104,11 @@ section {
 	background-color: #9322AC;
 }
 
+.navbar-collapse{
+   background-color: #9322AC; 
+    border-color:none;
+}
+
 .navbar-fixed-top {
     border-color:none;
 }
@@ -141,7 +146,7 @@ section {
 	text-transform: ;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color:white;
+	color:#E4C31E;
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
 	color: #E4541D;
